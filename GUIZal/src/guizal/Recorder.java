@@ -77,7 +77,9 @@ public class Recorder extends JFrame {
             }
             
             getContentPane().add(p, "Center");
-            getContentPane().setVisible(true);
+            getContentPane().setSize(700, 800);
+            pack();
+            setVisible(true);
         }
         
 }
